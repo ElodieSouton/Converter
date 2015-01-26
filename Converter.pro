@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        ConverterWindow.cpp
+        ConverterWindow.cpp \
+    ConverterLogic.cpp
 
-HEADERS  += ConverterWindow.h
+HEADERS  += ConverterWindow.h \
+    ConverterLogic.h
 
 FORMS    += ConverterWindow.ui
